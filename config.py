@@ -13,23 +13,23 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "9219444"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "9db23f3d7d8e7fc5144fb4dd218c8cc3")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002145592677"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6290948531"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = "mongodb+srv://zxbots:zXaBhi2315a@cluster0.lbbygpm.mongodb.net/?retryWrites=true&w=majority"
+DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "710b7ed8fdc5f89e9036000cc10121921e7732f1")
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6852649461").split()):
+    for x in (os.environ.get("ADMINS", "6290948531").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
