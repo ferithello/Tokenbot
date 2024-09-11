@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6290948531"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://zxbots:zXaBhi2315a@cluster0.lbbygpm.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://rphmif:Tboqe0pSeECt5xkn@cluster0.xnjaw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbota")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
